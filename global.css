@@ -39,16 +39,24 @@ li {
   float: left;
 }
 
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+a {
+  color: #272727;
+}
+
+a:hover {
+  color: #3c3c3c;
+}
+
 li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
 }
 
 .active {

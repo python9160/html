@@ -4,8 +4,16 @@
   border: 2px solid black;
   background: red;
   border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-family: discord;
 }
 
 #notapage:hover {
   background: #ff6868;
+}
+
+@font-face {
+  font-family: discord;
+  src: url("css_stuff/discord.otf") format("opentype");
 }

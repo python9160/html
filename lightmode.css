@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Nunito:wght@600&family=Roboto&display=swap");
+
+body {
+  background: #dfdfdf;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+#title {
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #201922;
+}
+
+ul {
+  font-family: "Nunito", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #afafaf;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #a0a0a0;
+}
+
+.active {
+  background-color: #529296;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 30px;
+}

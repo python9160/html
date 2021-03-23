@@ -5,7 +5,7 @@ $(document).ready(() => {
   } else {
     var theme = localStorage.getItem("theme");
     if (theme === "light") {
-      $('link[href="darkmode.css"]').attr("href", "lightmode.css");
+      $('link[href="../darkmode.css"]').attr("href", "../lightmode.css");
     }
   }
 });

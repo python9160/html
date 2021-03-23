@@ -3,3 +3,8 @@
   padding: 20px;
   border: green;
 }
+
+button {
+  font-family: discord;
+  font-size: 20px;
+}

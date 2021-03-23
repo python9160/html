@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Nunito:wght@600&family=Roboto&display=swap");
 
+@font-face {
+  font-family: productsans;
+  src: url("css_stuff/product-sans.otf") format("opentype");
+}
+
+@font-face {
+  font-family: discord;
+  src: url("css_stuff/discord.otf") format("opentype");
+}
+
 body {
   background: #616161;
-  font-family: "Roboto", sans-serif;
+  font-family: productsans, "Roboto", sans-serif;
   margin: 0;
 }
 

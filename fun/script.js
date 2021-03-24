@@ -7,6 +7,7 @@ $("#plsdo").click(() => {
 });
 
 $("#lololol").click(() => {
+  window.open(window.location.origin + '/fun/fun.html', "_blank")
   window.open('https://tinyurl.com/nvej2mk4', '_self')
 });
 

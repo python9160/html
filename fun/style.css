@@ -1,4 +1,4 @@
-#plsdont {
+#plsdont, #lololol {
   background: green;
   padding: 20px;
   border: green;
@@ -10,12 +10,13 @@ button {
   margin-bottom: 20px;
 }
 
-#plsdo {
+#plsdo, #truform {
   background-color: turquoise;
   padding: 20px;
   border: turquoise
 }
 
+<<<<<<< HEAD
 #lololol {
   background-color: green;
   padding: 20px;
@@ -33,4 +34,8 @@ button {
   padding: 20px;
   border: turquoise
 
+=======
+#funhtml {
+  margin-bottom: 20px;
+>>>>>>> d3076d48292ff85838231a82fbe9c0366bbab05f
 }

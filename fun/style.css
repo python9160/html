@@ -1,4 +1,4 @@
-#plsdont {
+#plsdont, #lololol, #clickforacookie {
   background: green;
   padding: 20px;
   border: green;
@@ -10,27 +10,8 @@ button {
   margin-bottom: 20px;
 }
 
-#plsdo {
+#plsdo, #truform {
   background-color: turquoise;
   padding: 20px;
   border: turquoise
-}
-
-#lololol {
-  background-color: green;
-  padding: 20px;
-  border: green;
-}
-
-#truform {
-  background-color: turquoise;
-  padding: 20px;
-  border: turquoise;
-}
-
-#clickforacookie {
-  background-color: green;
-  padding: 20px;
-  border: turquoise
-
 }

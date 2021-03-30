@@ -17,4 +17,4 @@ $("#truform").click(() => {
 
 $("#clickforacookie").click(() => { 
   alert("uhm go get a cookie");
-});
+}); 

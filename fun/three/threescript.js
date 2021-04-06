@@ -44,10 +44,11 @@ var light4 = new THREE.PointLight(0xff00ff)
 light4.position.set(1001, 1001, -1001)
 scene.add(light4);
 
-//controls = new THREE.OrbitControls( camera, renderer.domElement );
+controls = new THREE.OrbitControls( camera, renderer.domElement );
 
 function render() {
   requestAnimationFrame(render);
+  controls.update();
 
   renderer.render(scene, camera);
 };

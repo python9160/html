@@ -1,43 +1,71 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <title>Rotating a Cube</title>
-    </head>
-    <body>
-        <script src="three.js"></script>
-        <script>
-            var camera, scene, renderer, geometry, material, mesh;
 
-init();
+<head>
 
-animate();
+    <title>Rotating a Cube</title>
 
-function init() {
+</head>
 
-    scene = new THREE.Scene();
+<body>
 
-        camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 1, 10000);
+    <script src="js/three.js"></script>
 
-    camera.position.z = 500;
+    <script>
 
-    scene.add(camera);
+        var camera, scene, renderer, geometry, material, mesh;
 
-    geometry = new THREE.CubeGeometry(200, 200, 200);
+        init();
 
-    material = new THREE.MeshNormalMaterial();
+        animate();
 
-    
-    mesh = new THREE.Mesh(geometry, material);
+        function init() {
 
-    scene.add(mesh);
+            scene = new THREE.Scene();
 
-    renderer = new THREE.WebGLRenderer();
+            camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 1, 10000);
 
-    renderer.setSize(window.innerWidth, window.innerHeight);
+            camera.position.z = 500;
 
-    document.body.appendChild(renderer.domElement);
+            scene.add(camera);
 
-}
-        </script>
-    </body>
+            geometry = new THREE.CubeGeometry(200, 200, 200);
+
+            material = new THREE.MeshNormalMaterial();
+
+            mesh = new THREE.Mesh(geometry, material);
+
+            scene.add(mesh);
+
+            renderer = new THREE.WebGLRenderer();
+
+            renderer.setSize(window.innerWidth, window.innerHeight);
+
+            document.body.appendChild(renderer.domElement);
+
+        }
+
+        function animate() {
+
+            requestAnimationFrame(animate);
+
+            render();
+
+        }
+
+        function render() {
+
+            mesh.rotation.x += 0.01;
+
+            mesh.rotation.y += 0.02;
+
+            renderer.render(scene, camera);
+
+        }
+
+    </script>
+
+</body>
+
 </html>

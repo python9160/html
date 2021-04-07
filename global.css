@@ -35,6 +35,10 @@ ul {
   width: 100%;
 }
 
+.home {
+  margin-left: 160px;
+}
+
 li {
   float: left;
 }

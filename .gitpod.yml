@@ -1,5 +1,5 @@
 vscode:
   extensions:
-    - esbenp.prettier-vscode@6.3.1:iOVHVb01wildbNZ98o51fQ==
     - laurenttreguier.vscode-simple-icons@1.14.0:2132f1ab7475bed6453ada4355c36f04
     - enkia.tokyo-night@0.7.9:9d61af09b3d25f3270f7a42d0f2292a7
+    - esbenp.prettier-vscode@6.3.1:88e54755bd35c2295d6cd67df28e757d

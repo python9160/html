@@ -4,3 +4,7 @@ This is garbage lol check out the page [here](https://python-garbage.netlify.app
 
 #
 Ok so thats about it.
+
+##
+
+ye guys this website is kinda dead lol
